@@ -19,4 +19,14 @@ public class Spin : MonoBehaviour
             transform.Rotate(Vector3.up * spinSpeed * Time.deltaTime);
         }
     }
+
+    public void StartSpinning()
+    {
+        isSpinning = true;
+    }
+
+    public void StopSpinning()
+    {
+        isSpinning = false;
+    }
 }
