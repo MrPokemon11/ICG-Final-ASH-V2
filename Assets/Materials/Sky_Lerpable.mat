@@ -26,7 +26,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -75,6 +75,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_0d8cc69ac651449f9b80970f0da1e8fc_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f3583d19fc8c17340aa1153ae9ca0486, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6ba78c7108f24ad093c01ccbf25bd4cb_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 0cf2e5fccee3a0e4fa228327534f1546, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Skybox_1:
