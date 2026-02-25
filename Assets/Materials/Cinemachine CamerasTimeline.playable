@@ -24,6 +24,31 @@ MonoBehaviour:
   m_Markers:
     m_Objects:
     - {fileID: 6246385270332791912}
+--- !u!114 &-6984245533088288713
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46e36075dd1c124a8422c228e75e1fb, type: 3}
+  m_Name: Signal Track (3)
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects:
+    - {fileID: 7733249265306298645}
+    - {fileID: 8745630270085960945}
 --- !u!114 &-6688450095362145548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -220,6 +245,7 @@ MonoBehaviour:
   - {fileID: 5762226768416144505}
   - {fileID: -6688450095362145548}
   - {fileID: -2978473855573312254}
+  - {fileID: -6984245533088288713}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -713,6 +739,38 @@ MonoBehaviour:
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
   m_Time: 4.5
-  m_Retroactive: 0
+  m_Retroactive: 1
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: b11e9252024589349989b3525169d7bc, type: 2}
+--- !u!114 &7733249265306298645
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 5.516666666666667
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 47ac9e614e8e5ac4187b5309447b3ac3, type: 2}
+--- !u!114 &8745630270085960945
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 10.483333333333333
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 47ac9e614e8e5ac4187b5309447b3ac3, type: 2}
