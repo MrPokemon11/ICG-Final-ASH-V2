@@ -16,10 +16,10 @@ MonoBehaviour:
   - title: Base Loop
     position:
       serializedVersion: 2
-      x: 851
+      x: 852
       y: -1433
-      width: 475
-      height: 2277
+      width: 474
+      height: 2227
     contents:
     - model: {fileID: 8926484042661614608}
       id: 0
@@ -33,14 +33,64 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614681}
       id: 0
       isStickyNote: 0
-  stickyNoteInfos: []
+    - model: {fileID: 8926484042661614827}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614903}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614820}
+      id: 0
+      isStickyNote: 0
+  stickyNoteInfos:
+  - title: Constant spawn rate
+    position:
+      serializedVersion: 2
+      x: 358
+      y: -1341
+      width: 477
+      height: 178
+    contents: Snow constantly falls from the sky
+    theme: Classic
+    textSize: Medium
+  - title: Large Capacity
+    position:
+      serializedVersion: 2
+      x: 1343
+      y: -1056
+      width: 333
+      height: 232
+    contents: Could be reduced, but doesn't have a large enough performance impact
+      to necessitate doing so
+    theme: Classic
+    textSize: Medium
+  - title: Wide Spawn Area
+    position:
+      serializedVersion: 2
+      x: 559
+      y: -709
+      width: 289
+      height: 100
+    contents: 
+    theme: Classic
+    textSize: Medium
+  - title: Flipbook
+    position:
+      serializedVersion: 2
+      x: 1343
+      y: 168
+      width: 294
+      height: 183
+    contents: Makes the snow spin as it falls
+    theme: Classic
+    textSize: Medium
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 852
+    x: 358
     y: -1433
-    width: 474
-    height: 2380
+    width: 1318
+    height: 2227
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -454,7 +504,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614820}
   - {fileID: 8926484042661614827}
   - {fileID: 8926484042661614903}
-  m_UIPosition: {x: 877, y: -187}
+  m_UIPosition: {x: 877, y: -306}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -492,7 +542,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614685}
   - {fileID: 8926484042661614830}
   - {fileID: 8926484042661614722}
-  m_UIPosition: {x: 877, y: 248}
+  m_UIPosition: {x: 877, y: 95}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -1325,7 +1375,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614662}
   m_Children: []
-  m_UIPosition: {x: 0, y: 77}
+  m_UIPosition: {x: 0, y: 75}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -2580,7 +2630,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614662}
   m_Children: []
-  m_UIPosition: {x: 0, y: 0}
+  m_UIPosition: {x: 0, y: 184}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:

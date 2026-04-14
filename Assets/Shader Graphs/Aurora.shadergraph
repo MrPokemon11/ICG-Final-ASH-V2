@@ -151,6 +151,9 @@
         },
         {
             "m_Id": "ea69f457e8c54615a2caf60a8d94c52e"
+        },
+        {
+            "m_Id": "80e558f272264911aba2e0d4ce72d925"
         }
     ],
     "m_StickyNoteDatas": [],
@@ -606,8 +609,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 588.7999877929688,
-            "y": 390.39996337890627
+            "x": 674.0000610351563,
+            "y": 1086.0001220703125
         },
         "m_Blocks": [
             {
@@ -623,8 +626,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 588.7999877929688,
-            "y": 590.4000244140625
+            "x": 674.0000610351563,
+            "y": 1286.0001220703125
         },
         "m_Blocks": [
             {
@@ -749,7 +752,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
     "m_ObjectId": "099056e8355c4c91aef8e048f2989c42",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "80e558f272264911aba2e0d4ce72d925"
     },
     "m_Name": "Split",
     "m_DrawState": {
@@ -823,7 +826,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SampleGradient",
     "m_ObjectId": "0dbe8f25d07b4b3bac1159e1c55c09ed",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "80e558f272264911aba2e0d4ce72d925"
     },
     "m_Name": "Sample Gradient",
     "m_DrawState": {
@@ -1491,7 +1494,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SubtractNode",
     "m_ObjectId": "3cc60664b57b494eb1240000c7994822",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "80e558f272264911aba2e0d4ce72d925"
     },
     "m_Name": "Subtract",
     "m_DrawState": {
@@ -2628,6 +2631,17 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "80e558f272264911aba2e0d4ce72d925",
+    "m_Title": "Apply color",
+    "m_Position": {
+        "x": -838.0000610351563,
+        "y": 238.00003051757813
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "82e23b5f8d2d40cb9ff219f67dca3566",
     "m_Id": 1,
@@ -3613,8 +3627,8 @@
     "m_ObjectId": "b900cf8dab9442e8a1946f886a5228bf",
     "m_Title": "Scroll Aurora",
     "m_Position": {
-        "x": -2364.000244140625,
-        "y": 419.20001220703127
+        "x": -2363.000244140625,
+        "y": 420.0
     }
 }
 
@@ -4155,7 +4169,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SmoothstepNode",
     "m_ObjectId": "d659f32877154973ad37c8545756d971",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "80e558f272264911aba2e0d4ce72d925"
     },
     "m_Name": "Smoothstep",
     "m_DrawState": {
@@ -4595,8 +4609,8 @@
     "m_ObjectId": "ea69f457e8c54615a2caf60a8d94c52e",
     "m_Title": "Spin Aurora",
     "m_Position": {
-        "x": -2632.7998046875,
-        "y": 916.0
+        "x": -2632.000244140625,
+        "y": 917.0000610351563
     }
 }
 

@@ -45,9 +45,6 @@
             "m_Id": "e248dbc7598646f8ac2007b095120edf"
         },
         {
-            "m_Id": "3176ca7a09244f4999e630e5965cc295"
-        },
-        {
             "m_Id": "3261941bbdf14100820844bb87830a0c"
         },
         {
@@ -58,7 +55,14 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "3638effa8c094665aeccb9d236da8a53"
+        },
+        {
+            "m_Id": "e6beefcc45194d2a9221b79ae18ce1fc"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -133,8 +137,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 0.0
+            "x": -183.99998474121095,
+            "y": 364.0
         },
         "m_Blocks": [
             {
@@ -150,8 +154,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": -183.99998474121095,
+            "y": 564.0
         },
         "m_Blocks": [
             {
@@ -313,10 +317,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1184.0,
-            "y": 217.00001525878907,
+            "x": -1134.0,
+            "y": 257.0000305175781,
             "width": 208.0,
-            "height": 360.0
+            "height": 360.0000305175781
         }
     },
     "m_Slots": [
@@ -361,9 +365,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1184.0,
-            "y": 733.0,
-            "width": 208.0,
+            "x": -857.0000610351563,
+            "y": 577.0000610351563,
+            "width": 208.00006103515626,
             "height": 104.0
         }
     },
@@ -412,50 +416,6 @@
 
 {
     "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.ColorNode",
-    "m_ObjectId": "3176ca7a09244f4999e630e5965cc295",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Color",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -1184.0001220703125,
-            "y": 590.0,
-            "width": 208.00006103515626,
-            "height": 125.00006103515625
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "e4437cb5c4db49c6a081201631b3d313"
-        }
-    ],
-    "synonyms": [
-        "rgba"
-    ],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Color": {
-        "color": {
-            "r": 0.0,
-            "g": 0.7105088233947754,
-            "b": 1.0,
-            "a": 1.0
-        },
-        "mode": 0
-    }
-}
-
-{
-    "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.SampleGradient",
     "m_ObjectId": "3261941bbdf14100820844bb87830a0c",
     "m_Group": {
@@ -490,6 +450,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "3638effa8c094665aeccb9d236da8a53",
+    "m_Title": "Change angle offset over time",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -928.0,
+        "y": 157.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -1346,10 +1326,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1457.0,
-            "y": 246.00001525878907,
-            "width": 124.0,
-            "height": 173.00001525878907
+            "x": -1342.0,
+            "y": 257.0000305175781,
+            "width": 123.9998779296875,
+            "height": 173.00003051757813
         }
     },
     "m_Slots": [
@@ -1396,27 +1376,22 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
-    "m_ObjectId": "e4437cb5c4db49c6a081201631b3d313",
-    "m_Id": 0,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "e6beefcc45194d2a9221b79ae18ce1fc",
+    "m_Title": "Apply color",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -822.0,
+        "y": 687.0,
+        "width": 200.0,
+        "height": 100.0
     },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_Labels": []
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
